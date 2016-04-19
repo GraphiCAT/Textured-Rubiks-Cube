@@ -288,6 +288,7 @@ void printMenu() {
     std::cout << "Control" << std::endl;
     std::cout << "1: Start playing (3x3)" << std::endl;
     std::cout << "2: Start playing (5x5)" << std::endl;
+    std::cout << "s: Solve cube" << std::endl;
     std::cout << "f: Rotate front" << std::endl;
     std::cout << "b: Rotate back" << std::endl;
     std::cout << "r: Rotate right" << std::endl;

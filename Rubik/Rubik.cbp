@@ -59,10 +59,8 @@
 		<Unit filename="Cell.h" />
 		<Unit filename="Cube.cpp" />
 		<Unit filename="Cube.h" />
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Cubelet.cpp" />
-		<Unit filename="Cubelet.h" />
+		<Unit filename="Cube5.cpp" />
+		<Unit filename="Cube5.h" />
 		<Unit filename="DrawHandler.cpp" />
 		<Unit filename="DrawHandler.h" />
 		<Unit filename="Point3D.cpp" />

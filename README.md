@@ -1,2 +1,2 @@
-# Rubik-s-Cube
-Rubik's Cube by using OpenGL
+# Textured-Rubik-s-Cube
+Textured Rubik's Cube by using OpenGL

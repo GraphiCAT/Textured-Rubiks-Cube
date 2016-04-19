@@ -32,7 +32,7 @@
 1460783967 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\point3d.cpp
 	"Point3D.h"
 
-1460960548 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\drawhandler.cpp
+1460965183 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\drawhandler.cpp
 	"DrawHandler.h"
 	"Point3D.h"
 	"Cell.h"
@@ -436,7 +436,7 @@
 
 1460957515 c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\cube.h
 
-1460964277 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube5.cpp
+1460964664 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube5.cpp
 	"Cube5.h"
 	<iostream>
 	<vector>
