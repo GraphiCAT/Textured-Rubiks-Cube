@@ -59,13 +59,32 @@
 		<Unit filename="Cell.h" />
 		<Unit filename="Cube.cpp" />
 		<Unit filename="Cube.h" />
-		<Unit filename="Cube5.cpp" />
-		<Unit filename="Cube5.h" />
 		<Unit filename="DrawHandler.cpp" />
 		<Unit filename="DrawHandler.h" />
 		<Unit filename="Point3D.cpp" />
 		<Unit filename="Point3D.h" />
+		<Unit filename="img_test.png" />
 		<Unit filename="main.cpp" />
+		<Unit filename="pattern.bmp" />
+		<Unit filename="pattern.png" />
+		<Unit filename="soil/SOIL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="soil/SOIL.h" />
+		<Unit filename="soil/image_DXT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="soil/image_DXT.h" />
+		<Unit filename="soil/image_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="soil/image_helper.h" />
+		<Unit filename="soil/stb_image_aug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="soil/stb_image_aug.h" />
+		<Unit filename="soil/stbi_DDS_aug.h" />
+		<Unit filename="soil/stbi_DDS_aug_c.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

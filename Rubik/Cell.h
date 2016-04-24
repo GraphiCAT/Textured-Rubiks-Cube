@@ -1,7 +1,9 @@
 #ifndef Cell_H
 #define Cell_H
 
+#include <GL/glut.h>  // GLUT, include glu.h and gl.h
 #include "Point3D.h"
+#include <vector>
 #define RED 0
 #define GREEN 1
 #define WHITE 2
@@ -14,7 +16,7 @@ class Cell
 {
     public :
         Cell(){};
-        Cell(int _color, Point3D _location, Point3D _normal);
+        Cell(int _color, Point3D _location, Point3D _normal, std::vector<GLuint> _texture);
         Cell(const Cell& c);
         ~Cell();
         int getColor();
@@ -25,6 +27,7 @@ class Cell
         void setNormal(Point3D _normal);
         void drawCell();
         void setColor();
+        void setTexture();
         int getFace();
 
 
@@ -32,6 +35,7 @@ class Cell
         int color;
         Point3D location;
         Point3D normal;
+        std::vector<GLuint> texture;
 };
 
 #endif // Cell_H

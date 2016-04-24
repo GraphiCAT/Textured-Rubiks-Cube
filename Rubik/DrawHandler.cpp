@@ -2,12 +2,10 @@
 #include "Point3D.h"
 #include "Cell.h"
 #include "Cube.h"
-#include "Cube5.h"
 
 const int TRIANGLE = 0;
 const int TRIANGLE_POINT = 1;
 Cube rubiks;
-Cube5 rubiks5;
 
 #define CLOCKWISE 0
 #define COUNTER_CLOCKWISE -1
@@ -63,12 +61,13 @@ void displayCube() {
    glFlush();
 }
 
+/*
 void displayCube5() {
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Clear color and depth buffers
   glMatrixMode(GL_MODELVIEW);     // To operate on model-view matrix
   rubiks5.drawCube();
   glFlush();
-}
+}*/
 
 void keyPressed (unsigned char key, int x, int y) {
   Sleep(100);
@@ -106,8 +105,9 @@ void keyPressed (unsigned char key, int x, int y) {
   }
 }
 
+
 void keyPressed5 (unsigned char key, int x, int y) {
-  Sleep(100);
+/*  Sleep(100);
   switch (key) {
     case 'b': rubiks5.handleRotate(BACK,direction);
       break;
@@ -137,7 +137,7 @@ void keyPressed5 (unsigned char key, int x, int y) {
       break;
     default:
       break;
-  }
+  }*/
 }
 
 void toggleDirection() {
@@ -224,9 +224,10 @@ void display_1(void)
    displayCube();
 }
 
+
 void display_2(void)
 {
-   displayCube5();
+//   displayCube5();
 }
 
 // This is called when the window has been resized.
