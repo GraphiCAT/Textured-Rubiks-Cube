@@ -5,6 +5,8 @@
 #include <windows.h>  // for MS Windows
 #include <GL/glut.h>  // GLUT, include glu.h and gl.h
 #include "DrawHandler.h"
+#include "Cell.h"
+#include <iostream>
 
 /* Global variables */
 char title[] = "Rubix";
@@ -28,6 +30,8 @@ int main(int argc, char** argv) {
        glutInitWindowPosition(50, 50);
        window_1 = glutCreateWindow (argv[0]);
        glutSetWindowTitle(title);
+
+       Cell::initTexture();
 
        if (choice == '1') { // cube
            glutDisplayFunc(display_1);

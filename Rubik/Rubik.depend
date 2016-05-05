@@ -32,7 +32,7 @@
 1460783967 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\point3d.cpp
 	"Point3D.h"
 
-1460965183 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\drawhandler.cpp
+1460960548 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\drawhandler.cpp
 	"DrawHandler.h"
 	"Point3D.h"
 	"Cell.h"
@@ -58,10 +58,12 @@
 	<vector>
 	<GL/glut.h>
 
-1460796180 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cell.cpp
+1461569901 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cell.cpp
 	"Cell.h"
 	<windows.h>
 	<GL/glut.h>
+	<iostream>
+	"soil/SOIL.h"
 
 1460796586 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cell.h
 	"Point3D.h"
@@ -117,11 +119,11 @@
 
 1301111162 c:\program files (x86)\codeblocks\mingw\include\winerror.h
 
-1341010376 c:\program files (x86)\codeblocks\mingw\include\string.h
+1341006776 c:\program files (x86)\codeblocks\mingw\include\string.h
 	<_mingw.h>
 	<stddef.h>
 
-1341010370 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+1341006770 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
 
 1301111148 c:\program files (x86)\codeblocks\mingw\include\basetsd.h
 
@@ -189,7 +191,7 @@
 
 1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnterr.h
 
-1341010372 c:\program files (x86)\codeblocks\mingw\include\excpt.h
+1341006772 c:\program files (x86)\codeblocks\mingw\include\excpt.h
 	<_mingw.h>
 	<windef.h>
 
@@ -251,7 +253,7 @@
 	<objidl.h>
 	<cguid.h>
 
-1341010376 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
 	<_mingw.h>
 	<stddef.h>
 
@@ -277,8 +279,11 @@
 
 1460555511 c:\program files (x86)\codeblocks\mingw\include\gl\freeglut_std.h
 
-1460796180 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cell.h
+1461568998 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cell.h
 	"Point3D.h"
+	<windows.h>
+	<GL/glut.h>
+	<stdio.h>
 
 1460796180 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\point3d.h
 
@@ -336,14 +341,14 @@
 
 1460796587 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cubelet.cpp
 
-1460944621 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube.cpp
+1461502236 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube.cpp
 	"Cube.h"
 	<windows.h>
 	<iostream>
 	<vector>
 	<algorithm>
 
-1460944621 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube.h
+1461502216 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube.h
 	"Point3D.h"
 	"Cell.h"
 	<vector>
@@ -366,11 +371,12 @@
 1460796180 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cubelet.h
 	"Point3D.h"
 
-1460944621 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\drawhandler.cpp
+1461550495 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\drawhandler.cpp
 	"DrawHandler.h"
 	"Point3D.h"
 	"Cell.h"
 	"Cube.h"
+	"Cube5.h"
 	<vector>
 
 1460890590 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\drawhandler.h
@@ -378,7 +384,7 @@
 	<windows.h>
 	<GL/glut.h>
 
-1460944621 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\drawhandler.h
+1461502067 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\drawhandler.h
 	<iostream>
 	<windows.h>
 	<GL/glut.h>
@@ -389,11 +395,13 @@
 	<GL/glut.h>
 	"DrawHandler.h"
 
-1460944621 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\main.cpp
+1461568964 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\main.cpp
 	<cstdlib>
 	<windows.h>
 	<GL/glut.h>
 	"DrawHandler.h"
+	"Cell.h"
+	<iostream>
 
 1460796587 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\point3d.cpp
 	"Point3D.h"
@@ -436,7 +444,7 @@
 
 1460957515 c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\cube.h
 
-1460964664 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube5.cpp
+1460964277 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube5.cpp
 	"Cube5.h"
 	<iostream>
 	<vector>
@@ -478,100 +486,74 @@
 	<vector>
 	<GL/glut.h>
 
-1461467375 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\cell.cpp
-	"Cell.h"
-	<windows.h>
-	"soil/SOIL.h"
-	<vector>
-
-1461468337 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\cell.h
-	<GL/glut.h>
-	"Point3D.h"
-	<vector>
-
-1461409540 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\point3d.h
-
-1461467745 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\cube.cpp
-	"Cube.h"
-	<windows.h>
-	"soil/SOIL.h"
-	<iostream>
-	<vector>
-	<algorithm>
-
-1461409540 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\cube.h
-	"Point3D.h"
-	"Cell.h"
-	<vector>
-	<GL/glut.h>
-
-1461409540 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\cube5.cpp
+1461502067 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube5.cpp
 	"Cube5.h"
 	<iostream>
 	<vector>
 	<algorithm>
 
-1461409540 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\cube5.h
+1461502067 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube5.h
 	"Point3D.h"
 	"Cell.h"
 	<vector>
 	<GL/glut.h>
 
-1461422922 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\drawhandler.cpp
-	"DrawHandler.h"
-	"Point3D.h"
-	"Cell.h"
-	"Cube.h"
-	<vector>
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
 
-1461422912 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\drawhandler.h
-	<iostream>
-	<windows.h>
-	<GL/glut.h>
+1341006780 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
 
-1461409541 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\main.cpp
-	<cstdlib>
-	<windows.h>
-	<GL/glut.h>
-	"DrawHandler.h"
-
-1461409540 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\point3d.cpp
-	"Point3D.h"
-
-1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil.h
-
-1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\soil.h
-
-1215429208 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\image_dxt.c
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_dxt.c
 	"image_DXT.h"
 	<math.h>
 	<stdlib.h>
 	<string.h>
 	<stdio.h>
 
-1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\image_dxt.h
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_dxt.h
 
-1341010374 c:\program files (x86)\codeblocks\mingw\include\math.h
+1341006774 c:\program files (x86)\codeblocks\mingw\include\math.h
 	<_mingw.h>
 
-1341010376 c:\program files (x86)\codeblocks\mingw\include\stdio.h
-	<_mingw.h>
-	<stddef.h>
-	<stdarg.h>
-	<sys/types.h>
-
-1341010380 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
-	<_mingw.h>
-	<stddef.h>
-
-1215429208 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\image_helper.c
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_helper.c
 	"image_helper.h"
 	<stdlib.h>
 	<math.h>
 
-1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\image_helper.h
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_helper.h
 
-1215429208 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\soil.c
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\original\stb_image-1.09.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1341006774 c:\program files (x86)\codeblocks\mingw\include\memory.h
+	<string.h>
+
+1341006770 c:\program files (x86)\codeblocks\mingw\include\assert.h
+	<_mingw.h>
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\original\stb_image-1.16.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\soil.c
 	<windows.h>
 	<wingdi.h>
 	<GL/gl.h>
@@ -586,10 +568,12 @@
 	<stdlib.h>
 	<string.h>
 
-1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\stb_image_aug.h
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\soil.h
+
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stb_image_aug.h
 	<stdio.h>
 
-1215429208 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\stb_image_aug.c
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stb_image_aug.c
 	"stb_image_aug.h"
 	<math.h>
 	<string.h>
@@ -601,15 +585,9 @@
 	"stbi_DDS_aug.h"
 	"stbi_DDS_aug_c.h"
 
-1341010374 c:\program files (x86)\codeblocks\mingw\include\memory.h
-	<string.h>
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stbi_dds_aug.h
 
-1341010370 c:\program files (x86)\codeblocks\mingw\include\assert.h
-	<_mingw.h>
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stbi_dds_aug_c.h
 
-1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\stbi_dds_aug.h
-
-1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\soil\stbi_dds_aug_c.h
-
-1461411459 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik\textureloader.h
+1461499649 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\soil\soil.h
 

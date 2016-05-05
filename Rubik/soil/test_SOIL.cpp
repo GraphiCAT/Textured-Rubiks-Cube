@@ -115,7 +115,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
     int time_me;
 
     std::cout << "Attempting to load as a cubemap" << std::endl;
-    time_me = clock();
+//    time_me = clock();
 	tex_ID = SOIL_load_OGL_single_cubemap(
 			load_me.c_str(),
 			SOIL_DDS_CUBEMAP_FACE_ORDER,

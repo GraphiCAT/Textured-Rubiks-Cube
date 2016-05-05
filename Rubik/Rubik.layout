@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="Cell.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Cube5.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="652" topLine="141" />
+			<Cursor1 position="14627" topLine="355" />
 		</Cursor>
 	</File>
-	<File name="Cube.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Cell.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="94" topLine="3" />
+			<Cursor1 position="3176" topLine="59" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Cube.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1118" topLine="23" />
+			<Cursor1 position="922" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Cell.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="624" topLine="6" />
+			<Cursor1 position="900" topLine="22" />
 		</Cursor>
 	</File>
-	<File name="Cube.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+	<File name="Cell.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="805" topLine="27" />
+			<Cursor1 position="1203" topLine="32" />
 		</Cursor>
 	</File>
-	<File name="DrawHandler.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="DrawHandler.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="703" topLine="14" />
+			<Cursor1 position="8514" topLine="289" />
 		</Cursor>
 	</File>
-	<File name="DrawHandler.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Cube.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2713" topLine="85" />
+			<Cursor1 position="3499" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="..\..\soil\Simple OpenGL Image Library\src\stb_image_aug.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4791" topLine="108" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

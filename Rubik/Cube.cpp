@@ -1,7 +1,5 @@
 #include "Cube.h"
 #include <windows.h>  // for MS Windows
-#include "soil/SOIL.h"
-//#include "TextureLoader.h"
 
 #include <iostream>
 #include <vector>
@@ -24,35 +22,9 @@
 
 using namespace std;
 
+bool Cube::solve = false;
+
 Cube::Cube() {
-
-    //initialize textures
-
-    //should initialize 6 different textures and put them in texture vector
-    vector<GLuint> texture;
-    GLuint texture1 = SOIL_load_OGL_texture(
-      "pattern.png",
-      SOIL_LOAD_AUTO,
-      SOIL_CREATE_NEW_ID,
-      SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
-    );
-    for (int i=0;i<5;i++) {
-      texture.push_back(texture1);
-    }
-
-    //ini kalo pake #include "TextureLoader.h", tapi ga jalan juga
-    // unsigned int width = 128;
-    // unsigned int height = 128;
-    // unsigned char * data = loadBMPRaw("pattern.bmp", width, height);
-    // GLuint texture;
-    // glGenTextures(1, &texture);
-    // glBindTexture(GL_TEXTURE_2D, texture);
-    // glTexImage2D(GL_TEXTURE_2D, 0,GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
-    // glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-    // glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-    // delete[] data;
-
-
     Point3D top(0,-1,0);
     Point3D bottom(0,1,0);
     Point3D right(1,0,0);
@@ -61,74 +33,73 @@ Cube::Cube() {
     Point3D infront(0,0,1);
 
     //BOTTOM SURFACE
-    surface[0] = Cell(WHITE, Point3D(-1,-1.9,-1), top,texture);
-    surface[1] = Cell(WHITE, Point3D(0,-1.9,-1), top,texture);
-    surface[2] = Cell(WHITE, Point3D(1,-1.9,-1), top,texture);
-    surface[3] = Cell(WHITE, Point3D(-1,-1.9,0), top,texture);
-    surface[4] = Cell(WHITE, Point3D(0,-1.9,0), top,texture);
-    surface[5] = Cell(WHITE, Point3D(1,-1.9,0), top,texture);
-    surface[6] = Cell(WHITE, Point3D(-1,-1.9,1), top,texture);
-    surface[7] = Cell(WHITE, Point3D(0,-1.9,1), top,texture);
-    surface[8] = Cell(WHITE, Point3D(1,-1.9,1), top,texture);
+    surface[0] = Cell(WHITE, Point3D(-1,-1.9,-1), top);
+    surface[1] = Cell(WHITE, Point3D(0,-1.9,-1), top);
+    surface[2] = Cell(WHITE, Point3D(1,-1.9,-1), top);
+    surface[3] = Cell(WHITE, Point3D(-1,-1.9,0), top);
+    surface[4] = Cell(WHITE, Point3D(0,-1.9,0), top);
+    surface[5] = Cell(WHITE, Point3D(1,-1.9,0), top);
+    surface[6] = Cell(WHITE, Point3D(-1,-1.9,1), top);
+    surface[7] = Cell(WHITE, Point3D(0,-1.9,1), top);
+    surface[8] = Cell(WHITE, Point3D(1,-1.9,1), top);
 
 
     //TOP SURFACE
-    surface[9] = Cell(YELLOW, Point3D(-1,1.9,-1), bottom,texture);
-    surface[10] = Cell(YELLOW, Point3D(0,1.9,-1), bottom,texture);
-    surface[11] = Cell(YELLOW, Point3D(1,1.9,-1), bottom,texture);
-    surface[12] = Cell(YELLOW, Point3D(-1,1.9,0), bottom,texture);
-    surface[13] = Cell(YELLOW, Point3D(0,1.9,0), bottom,texture);
-    surface[14] = Cell(YELLOW, Point3D(1,1.9,0), bottom,texture);
-    surface[15] = Cell(YELLOW, Point3D(-1,1.9,1), bottom,texture);
-    surface[16] = Cell(YELLOW, Point3D(0,1.9,1), bottom,texture);
-    surface[17] = Cell(YELLOW, Point3D(1,1.9,1), bottom,texture);
+    surface[9] = Cell(YELLOW, Point3D(-1,1.9,-1), bottom);
+    surface[10] = Cell(YELLOW, Point3D(0,1.9,-1), bottom);
+    surface[11] = Cell(YELLOW, Point3D(1,1.9,-1), bottom);
+    surface[12] = Cell(YELLOW, Point3D(-1,1.9,0), bottom);
+    surface[13] = Cell(YELLOW, Point3D(0,1.9,0), bottom);
+    surface[14] = Cell(YELLOW, Point3D(1,1.9,0), bottom);
+    surface[15] = Cell(YELLOW, Point3D(-1,1.9,1), bottom);
+    surface[16] = Cell(YELLOW, Point3D(0,1.9,1), bottom);
+    surface[17] = Cell(YELLOW, Point3D(1,1.9,1), bottom);
 
     //LEFT SURFACE
-    surface[18] = Cell(RED, Point3D(-1.1,-1,-1), left,texture);
-    surface[19] = Cell(RED, Point3D(-1.1,0,-1), left,texture);
-    surface[20] = Cell(RED, Point3D(-1.1,1,-1), left,texture);
-    surface[21] = Cell(RED, Point3D(-1.1,-1,0), left,texture);
-    surface[22] = Cell(RED, Point3D(-1.1,0,0), left,texture);
-    surface[23] = Cell(RED, Point3D(-1.1,1,0), left,texture);
-    surface[24] = Cell(RED, Point3D(-1.1,-1,1), left,texture);
-    surface[25] = Cell(RED, Point3D(-1.1,0,1), left,texture);
-    surface[26] = Cell(RED, Point3D(-1.1,1,1), left,texture);
+    surface[18] = Cell(RED, Point3D(-1.1,-1,-1), left);
+    surface[19] = Cell(RED, Point3D(-1.1,0,-1), left);
+    surface[20] = Cell(RED, Point3D(-1.1,1,-1), left);
+    surface[21] = Cell(RED, Point3D(-1.1,-1,0), left);
+    surface[22] = Cell(RED, Point3D(-1.1,0,0), left);
+    surface[23] = Cell(RED, Point3D(-1.1,1,0), left);
+    surface[24] = Cell(RED, Point3D(-1.1,-1,1), left);
+    surface[25] = Cell(RED, Point3D(-1.1,0,1), left);
+    surface[26] = Cell(RED, Point3D(-1.1,1,1), left);
 
     //RIGHT SURFACE
-    surface[27] = Cell(ORANGE, Point3D(1.1,-1,-1), right,texture);
-    surface[28] = Cell(ORANGE, Point3D(1.1,0,-1), right,texture);
-    surface[29] = Cell(ORANGE, Point3D(1.1,1,-1), right,texture);
-    surface[30] = Cell(ORANGE, Point3D(1.1,-1,0), right,texture);
-    surface[31] = Cell(ORANGE, Point3D(1.1,0,0), right,texture);
-    surface[32] = Cell(ORANGE, Point3D(1.1,1,0), right,texture);
-    surface[33] = Cell(ORANGE, Point3D(1.1,-1,1), right,texture);
-    surface[34] = Cell(ORANGE, Point3D(1.1,0,1), right,texture);
-    surface[35] = Cell(ORANGE, Point3D(1.1,1,1), right,texture);
+    surface[27] = Cell(ORANGE, Point3D(1.1,-1,-1), right);
+    surface[28] = Cell(ORANGE, Point3D(1.1,0,-1), right);
+    surface[29] = Cell(ORANGE, Point3D(1.1,1,-1), right);
+    surface[30] = Cell(ORANGE, Point3D(1.1,-1,0), right);
+    surface[31] = Cell(ORANGE, Point3D(1.1,0,0), right);
+    surface[32] = Cell(ORANGE, Point3D(1.1,1,0), right);
+    surface[33] = Cell(ORANGE, Point3D(1.1,-1,1), right);
+    surface[34] = Cell(ORANGE, Point3D(1.1,0,1), right);
+    surface[35] = Cell(ORANGE, Point3D(1.1,1,1), right);
 
     //BACK SURFACE
-    surface[36] = Cell(BLUE, Point3D(-1,-1,-1.1), behind,texture);
-    surface[37] = Cell(BLUE, Point3D(0,-1,-1.1), behind,texture);
-    surface[38] = Cell(BLUE, Point3D(1,-1,-1.1), behind,texture);
-    surface[39] = Cell(BLUE, Point3D(-1,0,-1.1), behind,texture);
-    surface[40] = Cell(BLUE, Point3D(0,0,-1.1), behind,texture);
-    surface[41] = Cell(BLUE, Point3D(1,0,-1.1), behind,texture);
-    surface[42] = Cell(BLUE, Point3D(-1,1,-1.1), behind,texture);
-    surface[43] = Cell(BLUE, Point3D(0,1,-1.1), behind,texture);
-    surface[44] = Cell(BLUE, Point3D(1,1,-1.1), behind,texture);
+    surface[36] = Cell(BLUE, Point3D(-1,-1,-1.1), behind);
+    surface[37] = Cell(BLUE, Point3D(0,-1,-1.1), behind);
+    surface[38] = Cell(BLUE, Point3D(1,-1,-1.1), behind);
+    surface[39] = Cell(BLUE, Point3D(-1,0,-1.1), behind);
+    surface[40] = Cell(BLUE, Point3D(0,0,-1.1), behind);
+    surface[41] = Cell(BLUE, Point3D(1,0,-1.1), behind);
+    surface[42] = Cell(BLUE, Point3D(-1,1,-1.1), behind);
+    surface[43] = Cell(BLUE, Point3D(0,1,-1.1), behind);
+    surface[44] = Cell(BLUE, Point3D(1,1,-1.1), behind);
 
     //FRONT SURFACE
-    surface[45] = Cell(GREEN, Point3D(-1,-1,1.1), infront,texture);
-    surface[46] = Cell(GREEN, Point3D(0,-1,1.1), infront,texture);
-    surface[47] = Cell(GREEN, Point3D(1,-1,1.1), infront,texture);
-    surface[48] = Cell(GREEN, Point3D(-1,0,1.1), infront,texture);
-    surface[49] = Cell(GREEN, Point3D(0,0,1.1), infront,texture);
-    surface[50] = Cell(GREEN, Point3D(1,0,1.1), infront,texture);
-    surface[51] = Cell(GREEN, Point3D(-1,1,1.1), infront,texture);
-    surface[52] = Cell(GREEN, Point3D(0,1,1.1), infront,texture);
-    surface[53] = Cell(GREEN, Point3D(1,1,1.1), infront,texture);
+    surface[45] = Cell(GREEN, Point3D(-1,-1,1.1), infront);
+    surface[46] = Cell(GREEN, Point3D(0,-1,1.1), infront);
+    surface[47] = Cell(GREEN, Point3D(1,-1,1.1), infront);
+    surface[48] = Cell(GREEN, Point3D(-1,0,1.1), infront);
+    surface[49] = Cell(GREEN, Point3D(0,0,1.1), infront);
+    surface[50] = Cell(GREEN, Point3D(1,0,1.1), infront);
+    surface[51] = Cell(GREEN, Point3D(-1,1,1.1), infront);
+    surface[52] = Cell(GREEN, Point3D(0,1,1.1), infront);
+    surface[53] = Cell(GREEN, Point3D(1,1,1.1), infront);
 
 }
-
 
 Cube::Cube(const Cube& c){
 

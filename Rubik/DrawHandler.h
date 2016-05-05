@@ -10,7 +10,7 @@ typedef GLfloat point2[2];
 void initGL();
 void init();
 void displayCube();
-//void displayCube5();
+void displayCube5();
 void triangle( point2 a, point2 b, point2 c);
 void triangle_point( point2 a, point2 b, point2 c);
 void divide_triangle(point2 a, point2 b, point2 c,int m, int type);
