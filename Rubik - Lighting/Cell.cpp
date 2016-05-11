@@ -197,6 +197,27 @@ int Cell::getFace(){
 
 
 void Cell::drawLighting() {
+       glEnable(GL_LIGHTING);
+
+   GLfloat light_ambient[] = { 0.0, 0.0, 0.0, 1.0 };
+   GLfloat light_diffuse[] = { 1.0, 1.0, 1.0, 1.0 };
+   GLfloat light_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+   GLfloat left_light_position[] =
+   {-1.0, 0.0, 1.0, 0.0}, right_light_position[] =
+   {1.0, 0.0, 1.0, 0.0};
+   GLfloat red_light[] =
+   {1.0, 0.0, 0.0, 1.0}, green_light[] =
+   {0.0, 1.0, 0.0, 1.0}, white_light[] =
+   {1.0, 1.0, 1.0, 1.0};
+
+   glLightfv(GL_LIGHT0, GL_AMBIENT, light_ambient);
+   glLightfv(GL_LIGHT0, GL_DIFFUSE, green_light);
+   glLightfv(GL_LIGHT0, GL_POSITION, left_light_position);
+   glEnable(GL_LIGHT0);
+
+   glLightfv(GL_LIGHT1, GL_DIFFUSE, white_light);
+   glLightfv(GL_LIGHT1, GL_POSITION, right_light_position);
+   glEnable(GL_LIGHT1);
 
 }
 
