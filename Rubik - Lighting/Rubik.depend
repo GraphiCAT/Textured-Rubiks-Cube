@@ -1,0 +1,659 @@
+# depslib dependency file v1.0
+1460792234 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cell.cpp
+	"Cell.h"
+	<windows.h>
+	<GL/glut.h>
+
+1460789701 f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cell.h
+	"Point3D.h"
+
+1460790974 f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\point3d.h
+
+1460959859 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\main.cpp
+	<cstdlib>
+	<windows.h>
+	<GL/glut.h>
+	"DrawHandler.h"
+
+1426324528 c:\tdm-gcc-64\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1426324528 c:\tdm-gcc-64\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1460783967 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\point3d.cpp
+	"Point3D.h"
+
+1460960548 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\drawhandler.cpp
+	"DrawHandler.h"
+	"Point3D.h"
+	"Cell.h"
+	"Cube.h"
+	"Cube5.h"
+	<vector>
+
+1460959514 f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\drawhandler.h
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+
+1460959514 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube.cpp
+	"Cube.h"
+	<windows.h>
+	<iostream>
+	<vector>
+	<algorithm>
+
+1460959514 f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1461569901 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cell.cpp
+	"Cell.h"
+	<windows.h>
+	<GL/glut.h>
+	<iostream>
+	"soil/SOIL.h"
+
+1460796586 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cell.h
+	"Point3D.h"
+
+1460796587 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\point3d.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winerror.h
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341010370 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnterr.h
+
+1341010372 c:\program files (x86)\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1426324528 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1460555511 c:\program files (x86)\codeblocks\mingw\include\gl\freeglut_std.h
+
+1461568998 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cell.h
+	"Point3D.h"
+	<windows.h>
+	<GL/glut.h>
+	<stdio.h>
+
+1460796180 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\point3d.h
+
+1426324528 c:\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1426324528 c:\mingw\include\gl\freeglut_std.h
+
+1460796180 94172269517a6704ba84ac7651df085ae6c03
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+	"Cubelet.h"
+	<windows.h>
+	<GL/glut.h>
+	"DrawHandler.h"
+	"Point3D.h"
+	"Cell.h"
+	"Cube.h"
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<cstdlib>
+	<windows.h>
+	<GL/glut.h>
+	"DrawHandler.h"
+
+1460950928 D
+	<vector>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1460937288 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cube.cpp
+	"Cube.h"
+	<windows.h>
+	<iostream>
+	<vector>
+	<algorithm>
+
+1460937809 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cube.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1460796587 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cubelet.cpp
+
+1461502236 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube.cpp
+	"Cube.h"
+	<windows.h>
+	<iostream>
+	<vector>
+	<algorithm>
+
+1461502216 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1460796180 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cubelet..c
+
+1460796180 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cubelet.cpp
+
+1460796587 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cubelet.h
+	"Point3D.h"
+
+1460937751 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\drawhandler.cpp
+	"DrawHandler.h"
+	"Point3D.h"
+	"Cell.h"
+	"Cube.h"
+	<vector>
+
+1460796180 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cubelet.h
+	"Point3D.h"
+
+1461550495 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\drawhandler.cpp
+	"DrawHandler.h"
+	"Point3D.h"
+	"Cell.h"
+	"Cube.h"
+	"Cube5.h"
+	<vector>
+
+1460890590 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\drawhandler.h
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+
+1461502067 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\drawhandler.h
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+
+1460931806 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\main.cpp
+	<cstdlib>
+	<windows.h>
+	<GL/glut.h>
+	"DrawHandler.h"
+
+1461568964 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\main.cpp
+	<cstdlib>
+	<windows.h>
+	<GL/glut.h>
+	"DrawHandler.h"
+	"Cell.h"
+	<iostream>
+
+1460796587 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\point3d.cpp
+	"Point3D.h"
+
+1460874341 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cubehandler.cpp
+	"CubeHandler.h"
+
+1460873831 c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cubehandler.h
+
+1460796180 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\point3d.cpp
+	"Point3D.h"
+
+1460796586 source:c:\users\asus x202e\documents\github\rubik-s-cube\rubik\cell.cpp
+	"Cell.h"
+	<windows.h>
+	<GL/glut.h>
+
+1460950619 source:c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\cell.cpp
+	"Cell.h"
+	<windows.h>
+	<GL/glut.h>
+
+1460950619 c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\cell.h
+	"Point3D.h"
+
+1460950619 c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\point3d.h
+
+1460958708 source:c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\drawhandler.cpp
+	"DrawHandler.h"
+	"Point3D.h"
+	"Cell.h"
+	"Cube.h"
+	"Cube5.h"
+	<vector>
+
+1460958730 c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\drawhandler.h
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+
+1460957515 c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\cube.h
+
+1460964277 source:f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube5.cpp
+	"Cube5.h"
+	<iostream>
+	<vector>
+	<algorithm>
+
+1460962428 f:\itb\semester_6\if3260 grafika komputer\rubik-s-cube\rubik\cube5.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1460954283 877c9b3492d7a46cd1396f57d29f44a1e18cf
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1460958778 source:c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\main.cpp
+	<cstdlib>
+	<windows.h>
+	<GL/glut.h>
+	"DrawHandler.h"
+
+1460950619 source:c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\point3d.cpp
+	"Point3D.h"
+
+1460958407 source:c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\cube.cpp
+	"Cube.h"
+	<windows.h>
+	<iostream>
+	<vector>
+	<algorithm>
+
+1460954283 >
+
+1460958559 c:\users\asus x202e\documents\github\rubik\rubik-s-cube\rubik\cube5.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1461502067 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube5.cpp
+	"Cube5.h"
+	<iostream>
+	<vector>
+	<algorithm>
+
+1461502067 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\cube5.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341010380 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_dxt.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_dxt.h
+
+1341006774 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\image_helper.h
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\original\stb_image-1.09.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1341006774 c:\program files (x86)\codeblocks\mingw\include\memory.h
+	<string.h>
+
+1341006770 c:\program files (x86)\codeblocks\mingw\include\assert.h
+	<_mingw.h>
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\original\stb_image-1.16.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\soil.c
+	<windows.h>
+	<wingdi.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	"SOIL.h"
+	"stb_image_aug.h"
+	"image_helper.h"
+	"image_DXT.h"
+	<stdlib.h>
+	<string.h>
+
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\soil.h
+
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stb_image_aug.h
+	<stdio.h>
+
+1215429208 source:d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stb_image_aug.c
+	"stb_image_aug.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	"stbi_DDS_aug.h"
+	"stbi_DDS_aug_c.h"
+
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stbi_dds_aug.h
+
+1215429208 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\soil\simple opengl image library\src\stbi_dds_aug_c.h
+
+1461499649 d:\tifani warnita\schools - college\itb\hmif itb\informatics engineering\6th semester\if3260 - computer graphics\assignments\rubik-s-cube\rubik\soil\soil.h
+
+1462767648 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\cube.cpp
+	"Cube.h"
+	<windows.h>
+	<iostream>
+	<vector>
+	<algorithm>
+
+1462709701 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\cube.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1461409540 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\point3d.h
+
+1462709817 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\cell.h
+	"Point3D.h"
+	<windows.h>
+	<GL/glut.h>
+	<stdio.h>
+
+1462707241 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\cube5.cpp
+	"Cube5.h"
+	<iostream>
+	<vector>
+	<algorithm>
+
+1462707241 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\cube5.h
+	"Point3D.h"
+	"Cell.h"
+	<vector>
+	<GL/glut.h>
+
+1462768051 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\drawhandler.cpp
+	"DrawHandler.h"
+	"Point3D.h"
+	"Cell.h"
+	"Cube.h"
+	"Cube5.h"
+	<vector>
+
+1462707241 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\drawhandler.h
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+
+1462707241 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\main.cpp
+	<cstdlib>
+	<windows.h>
+	<GL/glut.h>
+	"DrawHandler.h"
+	"Cell.h"
+	<iostream>
+
+1461409540 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\point3d.cpp
+	"Point3D.h"
+
+1462767511 source:c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\cell.cpp
+	"Cell.h"
+	<windows.h>
+	<GL/glut.h>
+	<iostream>
+	"soil/SOIL.h"
+
+1215429208 c:\users\asus x202e\documents\github\textured-rubiks-cube\rubik - lighting\soil\soil.h
+
